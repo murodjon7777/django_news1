@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: black;
+    font-size: 32px;
+}
+h1 a{
+    text-decoration: none;
+}
+h1 a:hover{
+    color: red;
+}
+.blog{
+    display:flex;
+    flex-direction:row-reverse;
+    
+}
+.post-entry{
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+}
+.post-entry img{
+    width: 300px;
+}
+.blog-pk{
+    margin: 10px 100px 0px 100px;
+    width: 70vw;
+    font-family: sans-serif;
+    font-style: italic;
+}
